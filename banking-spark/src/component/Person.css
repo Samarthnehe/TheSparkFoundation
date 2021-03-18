@@ -1,0 +1,68 @@
+.person{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   
+   height: 100%;
+
+    
+}
+.person__container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+}
+.person__container h1{
+    margin-bottom: 20px;
+}
+.person__details{
+    background-color: white;
+    width:400px;
+    padding: 0 50px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.7);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+    margin-bottom: 30px;
+}
+
+.person__container h5{
+    font-weight: 700;
+}
+.person__container h1{
+    text-align: center;
+}
+
+.person__details .person__div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 100%;
+}
+span{
+    font-size: medium;
+}
+.person__container a{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.person__container a button{
+    background: green;
+    border-radius: 2px;
+    width: 50%;
+    height: 40px;
+    border: 1px solid;
+    border-color: #36f310 #33d613 #02d325;
+    color: white;
+    font-weight: 700;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.6);
+}

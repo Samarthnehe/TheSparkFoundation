@@ -1,0 +1,46 @@
+.money{
+    min-height: calc(100vh - 70px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: lightgreen;
+    flex-direction: column;
+    padding-top: 60px;
+}
+.money h1{
+    margin-bottom: 30px;
+}
+.money__form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+
+}
+.money__form h4{
+    margin-bottom: 20px;
+}
+.money__form a{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.money__form a button{
+    background: rgb(9,58,9);
+    border-radius: 2px;
+    width: 50%;
+    height: 40px;
+    border: 1px solid;
+    border-color: #36f310 #33d613 #02d325;
+    color: white;
+    font-weight: 700;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.6);
+}
+.money .money__container select,input{
+    height: 40px ;
+    width: 140px;
+}

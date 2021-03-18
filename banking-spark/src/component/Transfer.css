@@ -1,0 +1,8 @@
+.transfer{
+    background-color: lightgreen;
+    height: calc(100vh - 130px);
+    padding-top: 60px;
+}
+.transfer__container{
+    height: 40vh;
+}

@@ -1,0 +1,36 @@
+.home{
+    margin-left: auto;
+    margin-right: auto;;
+    height: calc(100vh - 70px);
+   
+  
+}
+.home .banner{
+    height: calc(100vh - 70px);
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0)); ;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+   
+    
+}
+.home .mask{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: lightgreen;
+    position: absolute;
+    opacity: 0.6;
+ 
+}
+.home__container{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
